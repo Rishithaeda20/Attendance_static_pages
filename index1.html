@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <style>
+        /* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar h2 {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Content Section */
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+
+/* Box for Links */
+.box {
+    border: 2px solid #ccc;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    background-color: #DFF0D8; /* Light Green */
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box a:first-of-type {
+    color: green;
+}
+
+.box a:last-of-type {
+    color: blue;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.jpg" alt="College Logo" class="logo">
+        <h2>SRKR Engineering College</h2>
+        <div class="nav-links">
+            <a href="#marks">Marks</a>
+            <a href="#assignments">Assignments</a>
+            <a href="#notices">Notices</a>
+            <a href="login.html" class="logout">Logout</a>
+        </div>
+        <div class="welcome">
+            <img src="logo1.jpg" alt="Profile" class="profile-pic">
+        </div>
+    </div>
+    <p>Welcome to the Student Portal</p>
+    <div class="box">
+        <h3>CLICK HERE</h3>
+        <a href="#">Click Here to go Overall Marks Result</a>
+        <a href="index2.html">Click Here to go Student Dashboard</a>
+    </div>
+</body>
+</html> 
